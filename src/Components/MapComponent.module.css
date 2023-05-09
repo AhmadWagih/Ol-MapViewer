@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+}
+.mapCol {
+  margin: 0;
+  width: 75%;
+  height: 99.9vh;
+  display: inline-flex;
+  flex-direction: column;
+}
+.map {
+  margin: 0;
+  height: 70%;
+  display: block;
+}
+.leftPanel {
+  top: 0;
+  margin: 0;
+  width: 25%;
+  height: 99.5vh;
+  top: 0;
+  display: inline-block;
+}
+.PanelTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: bisque;
+  height: 60px;
+  padding: 15px 0px;
+  margin-bottom: 10px;
+}
+.PanelRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5px 0px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.title {
+  text-decoration: double;
+  font-size: larger;
+  width: 210px;
+  font-weight: 700;
+}
+.row {
+  font-size: large;
+  width: 180px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.attTable {
+  border: 2px solid gray;
+  resize: vertical;
+  margin: 0;
+  width: 100%;
+  height: 30%;
+  overflow-y: scroll;
+}
+.tableHeader {
+  background-color: rgb(196, 238, 255);
+  height: 30px;
+  font-size: larger;
+  font-weight: 700;
+}
+.tableRow{
+  cursor: pointer;
+}
+.tableRow:hover,.PanelRow:hover{
+  background-color: darkgray;
+}
+
